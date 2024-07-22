@@ -1,1 +1,60 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  background-color: rgb(235, 92, 92);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 0 2px transparent;
+  width: 350px;
+  max-width: 350px;
+  height: 550px;
+  border-radius: 20px;
+  background-color: #fffbfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  margin: 0;
+}
+
+.number {
+  font-size: 10em;
+}
+
+.suit-down,
+.suit-up {
+  font-size: 5em;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+}
+
+.container-suit-up {
+  display: flex;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.container-suit-down {
+  display: flex;
+  margin-left: auto;
+  transform: rotate(180deg);
+  margin-right: 10px;
+}
